@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    height: 100%;   
+    background-image: url('stars.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.wrapper{
+    max-width: 960px;    
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;    
+    color: white;
+}
+
+.wrapper h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;    
+}
+
+.wrapper .list{
+   margin: 15px;
+   max-width: 60%;  
+   height: auto;   
+}
+
+.wrapper .addForm {
+    padding-right:20px ;
+    font-size: 20px;
+}
+
+.wrapper .addForm input[type=text]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.wrapper .addForm input[type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.wrapper .list ul{
+    display: block;
+    margin: 0 auto;    
+    width: 80%;      
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em; 
+}
+
+.wrapper .list span{    
+    margin: 20px 20px 20px 20px;
+}
+
+.wrapper .list li{
+    
+    margin: 30px 10px 10px 10px;
+}
+
+.wrapper .list input{  
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 10px;
+    background-color: red;
+    padding: 10px 20px 10px 20px;
+    font-size: 10px;
+    color: white;
+}
+
